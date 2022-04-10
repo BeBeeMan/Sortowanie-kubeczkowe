@@ -19,7 +19,7 @@ int main()
     srand(time(NULL));
     for (int i = 0; i < ile; i++)
     {
-      a[i] = rand() % doile;
+      a[i] = rand() % doile+1;
       cout << a[i] << " ";
     }
     cout << endl;
